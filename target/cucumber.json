@@ -1,0 +1,429 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Content type and Accept type is application\\json",
+            "match": {
+              "location": "com.equifax.step_definations.EndPointStepDefinations.content_type_and_Accept_type_is_application_json()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2789000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I send a GET request with \"a\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.equifax.step_definations.EndPointStepDefinations.i_send_a_GET_request_with_endpoint(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-18T23:29:45.276Z",
+        "before": [
+          {
+            "result": {
+              "duration": 811000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.equifax.step_definations.Hook.setupAPI()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate endpoint status code",
+        "description": "",
+        "id": "equifax-api-test;validate-endpoint-status-code",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "com.equifax.step_definations.EndPointStepDefinations.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Content type and Accept type is application\\json",
+            "match": {
+              "location": "com.equifax.step_definations.EndPointStepDefinations.content_type_and_Accept_type_is_application_json()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 494000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I send a GET request with \"a\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.equifax.step_definations.EndPointStepDefinations.i_send_a_GET_request_with_endpoint(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-18T23:29:49.024Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.equifax.step_definations.Hook.setupAPI()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validate content and response body values",
+        "description": "",
+        "id": "equifax-api-test;validate-content-and-response-body-values",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 921000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the following customer data should be returned:",
+            "match": {
+              "location": "com.equifax.step_definations.EndPointStepDefinations.the_following_team_data_should_be_returned(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "1"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "John"
+                ]
+              },
+              {
+                "cells": [
+                  "last",
+                  "Doe"
+                ]
+              },
+              {
+                "cells": [
+                  "age",
+                  "40"
+                ]
+              },
+              {
+                "cells": [
+                  "gender",
+                  "M"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Content type and Accept type is application\\json",
+            "match": {
+              "location": "com.equifax.step_definations.EndPointStepDefinations.content_type_and_Accept_type_is_application_json()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 486000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I send a GET request with \"a\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.equifax.step_definations.EndPointStepDefinations.i_send_a_GET_request_with_endpoint(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-18T23:29:50.449Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.equifax.step_definations.Hook.setupAPI()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validate template and POJO validation",
+        "description": "",
+        "id": "equifax-api-test;validate-template-and-pojo-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 491000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "object data types should be appropriate",
+            "match": {
+              "location": "com.equifax.step_definations.EndPointStepDefinations.object_data_types_should_be_appropriate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Content type and Accept type is application\\json",
+            "match": {
+              "location": "com.equifax.step_definations.EndPointStepDefinations.content_type_and_Accept_type_is_application_json()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 346000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I send a GET request with \"a\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.equifax.step_definations.EndPointStepDefinations.i_send_a_GET_request_with_endpoint(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-18T23:29:51.441Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.equifax.step_definations.Hook.setupAPI()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Verify response body values according to the acceptance criteria",
+        "description": "",
+        "id": "equifax-api-test;verify-response-body-values-according-to-the-acceptance-criteria",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The id should be greater than zero",
+            "match": {
+              "location": "com.equifax.step_definations.EndPointStepDefinations.the_id_should_be_greater_than_zero()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The name should be a String type value not longer than 10 alpha characters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 55
+                }
+              ],
+              "location": "com.equifax.step_definations.EndPointStepDefinations.the_name_should_be_a_String_type_value_not_longer_than_alpha_characters(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The last should be a String type value not longer than 10 alpha characters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 55
+                }
+              ],
+              "location": "com.equifax.step_definations.EndPointStepDefinations.the_last_should_be_a_String_type_value_not_longer_than_alpha_characters(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The age should be between 0 and 120",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 26
+                },
+                {
+                  "val": "120",
+                  "offset": 32
+                }
+              ],
+              "location": "com.equifax.step_definations.EndPointStepDefinations.the_age_should_be_between_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "The gender should be an String type value and gender should be F or M",
+            "match": {
+              "location": "com.equifax.step_definations.EndPointStepDefinations.the_gender_should_be_an_String_type_value_and_gender_should_be_F_or_M()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "The response time should be less than 500 milliseconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 38
+                }
+              ],
+              "location": "com.equifax.step_definations.EndPointStepDefinations.the_response_time_should_be_less_than_milliseconds(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Equifax API Test",
+    "description": "",
+    "id": "equifax-api-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/equifax/features/accentanceTest.feature",
+    "tags": []
+  }
+]
